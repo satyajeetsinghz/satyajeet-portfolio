@@ -12,7 +12,7 @@ const Header = () => {
           <img className="size-12 md:size-16 rounded-full object-cover object-center" src="https://wallpaperaccess.com/full/1169332.jpg" alt="" />
           <div className="absolute top-0 translate-y-[7.5rem] md:translate-y-[8rem] translate-x-[3.5rem] md:translate-x-[5rem]">
             <h3 className="font-semibold text-lg text-[#292929]">Tony Stark</h3>
-            <p className="text-sm text-[#4b5563]">Genius, billionaire, playboy, philanthropist. (The Avengers)</p>
+            <p className="text-sm text-[#4b5563]">Welcome to STARK Industries.</p>
           </div>
         </div>
         <div className="text-[#4b5563] p-2 bg-cyan-00 mt-4">
