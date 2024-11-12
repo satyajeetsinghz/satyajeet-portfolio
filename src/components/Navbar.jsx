@@ -1,7 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
+import HamburgerMenu from '../utilities/HamburgerMenu';
 
 const Navbar = () => {
+
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen((prev) => !prev);
+    };
+
     return (
         <div className="flex items-start justify-center min-h-24 bg-gray-10 sticky top-0 inset-x-0 z-50">
             <div className='w-[98%] md:w-[85%] lg:w-[45%] h-12 mt-6 bg-white border border-neutral-200 rounded-full'>
@@ -17,8 +25,11 @@ const Navbar = () => {
                     </div>
 
                     {/* Mobile View  */}
-                    <div className='flex pr-4 space-x-4 font-semibold text-[#4b5563] sm:hidden md:hidden lg:hidden xl:hidden'>
-                        <MenuIcon />
+                    <div className='flex pr-1 space-x-4 font-semibold text-[#4b5563] sm:hidden md:hidden lg:hidden xl:hidden'>
+                        <a onClick={toggleMenu}>
+                            <MenuIcon sx={{ fontSize: 18 }} />
+                        </a>
+                        <HamburgerMenu isOpen={menuOpen} toggleMenu={toggleMenu} />
                     </div>
 
                 </div>
