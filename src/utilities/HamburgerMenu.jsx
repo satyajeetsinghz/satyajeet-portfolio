@@ -22,10 +22,22 @@ const HamburgerMenu = ({ isOpen, toggleMenu }) => {
 
                 <ul className="flex flex-col justify-center items-center p-4 space-y-4 translate-y-32 text-lg">
                     <li>
-                        <div className='min-w-fit mr-6 ml-6 bg-[#32e4f4] h-0.5 relative bottom-[-34px]'></div>
+                        <div className='w-[2.5rem] ml-[50px] bg-[#32e4f4] h-0.5 relative bottom-[-34px]'></div>
                         <a onClick={toWorkExperience} className='hover:text-[#32e4f4]'>
                             Work experience
                         </a>
+                    </li>
+
+                    {/* Spotify Project link  */}
+                    <li>
+                        <div className='w-[2.5rem] bg-[#3ff464] h-0.5 relative bottom-[-34px] ml-[55px]'></div>
+                        <div className='inline-flex items-center'>
+                            <img className='size-6 mx-2' src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Black.png" alt="" />
+                            <a href='https://spotifyclonebeta.vercel.app/' className='hover:text-[#3ff464]'>
+                                Spotify Clone
+                            </a>
+                        </div>
+
                     </li>
                     {/* <li><a className='hover:text-[#32e4f4]' href="#">About</a></li>
                     <li><a className='hover:text-[#32e4f4]' href="#">Services</a></li>
