@@ -16,24 +16,24 @@ const Header = () => {
           </div>
         </div>
         <div className="text-[#4b5563] p-2 bg-cyan-00 mt-4">
-          <p className="text-[0.875re] font-normal leading-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consequatur quae voluptates saepe, facilis quisquam tempora optio facere numquam eveniet eligendi consequuntur eaque vitae omnis amet fugiat exercitationem explicabo? Qui.</p>
+          <p className="text-sm leading-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consequatur quae voluptates saepe, facilis quisquam tempora optio facere numquam eveniet eligendi consequuntur eaque vitae omnis amet fugiat exercitationem explicabo? Qui.</p>
 
-          <p className="pt-4 text-[0.875re] font-normal leading-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consequatur quae voluptates saepe, facilis quisquam tempora optio facere numquam eveniet eligendi consequuntur eaque vitae omnis amet fugiat exercitationem explicabo? Qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate totam quidem, cumque commodi ea pariatur quo perspiciatis? Laborum nesciunt alias, aut distinctio minus eveniet tenetur ea nihil doloremque rem officiis.</p>
+          <p className="pt-4 text-sm leading-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consequatur quae voluptates saepe, facilis quisquam tempora optio facere numquam eveniet eligendi consequuntur eaque vitae omnis amet fugiat exercitationem explicabo? Qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate totam quidem, cumque commodi ea pariatur quo perspiciatis? Laborum nesciunt alias, aut distinctio minus eveniet tenetur ea nihil doloremque rem officiis.</p>
         </div>
 
         <div className="p-2 mt-4 bg-red-00">
           <div className='flex flex-col space-y-2.5'>
             <button className='flex items-center bg-yellow- gap-x-2.5'>
               <MailOutlineIcon sx={{ fontSize: 16, color: "#26292c" }} />
-              <span className='text-[10px] text-[#4b5563] underline'>satyajeetsingh.in@gmail.com</span>
+              <span className='text-[10px] sm:text-[12px] text-[#4b5563] underline'>satyajeetsingh.in@gmail.com</span>
             </button>
             <button className='flex items-center bg-yellow- gap-x-2.5'>
               <GitHubIcon sx={{ fontSize: 16, color: "#26292c" }} />
-              <span className='text-[10px] text-[#4b5563] underline'>/satyajeetsinghz</span>
+              <span className='text-[10px] sm:text-[12px] text-[#4b5563] underline'>/satyajeetsinghz</span>
             </button>
             <button className='flex items-center bg-yellow- gap-x-2.5'>
               <LinkedInIcon sx={{ fontSize: 16, color: "#26292c" }} />
-              <span className='text-[10px] text-[#4b5563] underline'>satyajeet-singh</span>
+              <span className='text-[10px] sm:text-[12px] text-[#4b5563] underline'>satyajeet-singh</span>
             </button>
           </div>
         </div>

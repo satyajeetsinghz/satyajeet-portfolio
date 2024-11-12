@@ -16,12 +16,12 @@ const Navbar = () => {
                 <div className='flex justify-between items-center pt-2.5 pl-1 pr-1'>
                     <img className='w-10' src="https://www.clipartmax.com/png/middle/165-1658463_iron-man-3-arc-reactor-png.png" alt="" />
                     <div className='hidden sm:flex pr-4 space-x-4 font-semibold text-[#4b5563]'>
-                        <a className='bg-red-20 hover:text-[#32e4f4]' href="/">
+                        <a className='bg-red-20 text-sm hover:text-[#32e4f4]' href="/">
                             {/* <div className='w-[44px] bg-[#32e4f4] h-0.5 relative bottom-[-34px]'></div> */}
-                            Profile
+                            Option not avilable
                         </a>
-                        <a className='hover:text-[#32e4f4]' href="/">Projects</a>
-                        <a className='hover:text-[#32e4f4]' href="/">Connect</a>
+                        {/* <a className='hover:text-[#32e4f4]' href="/">Projects</a> */}
+                        {/* <a className='hover:text-[#32e4f4]' href="/">Connect</a> */}
                     </div>
 
                     {/* Mobile View  */}
