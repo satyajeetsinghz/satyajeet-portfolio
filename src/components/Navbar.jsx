@@ -27,7 +27,7 @@ const Navbar = () => {
                     {/* Mobile View  */}
                     <div className='flex pr-1 space-x-4 font-semibold text-[#4b5563] sm:hidden md:hidden lg:hidden xl:hidden'>
                         <a onClick={toggleMenu}>
-                            <MenuIcon sx={{ fontSize: 18 }} />
+                            <MenuIcon sx={{ fontSize: 20 }} />
                         </a>
                         <HamburgerMenu isOpen={menuOpen} toggleMenu={toggleMenu} />
                     </div>
