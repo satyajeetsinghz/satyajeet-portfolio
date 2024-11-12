@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import '../src/fonts/Inter.css'
 import Footer from './components/Footer'
+import Skills from './components/Skills'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Header />
       <Projects />
+      <Skills />
       <Footer />
     </div>
   )
