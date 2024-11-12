@@ -7,7 +7,7 @@ import '../src/fonts/Inter.css'
 function App() {
 
   return (
-    <div className='min-h-screen bg-white text-black inter-family'>
+    <div className='min-h-screen bg-white text-black inter-family p-2 sm:p-0 md:p-0 lg:p-0'>
       <Navbar />
       <Header />
       <Projects />
