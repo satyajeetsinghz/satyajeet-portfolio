@@ -25,15 +25,15 @@ const Header = () => {
           <div className='flex flex-col space-y-2.5'>
             <button className='flex items-center bg-yellow- gap-x-2.5'>
               <MailOutlineIcon sx={{ fontSize: 16, color: "#26292c" }} />
-              <span className='text-xs text-[#4b5563] underline'>satyajeetsingh.in@gmail.com</span>
+              <span className='text-[10px] text-[#4b5563] underline'>satyajeetsingh.in@gmail.com</span>
             </button>
             <button className='flex items-center bg-yellow- gap-x-2.5'>
               <GitHubIcon sx={{ fontSize: 16, color: "#26292c" }} />
-              <span className='text-xs text-[#4b5563] underline'>/satyajeetsinghz</span>
+              <span className='text-[10px] text-[#4b5563] underline'>/satyajeetsinghz</span>
             </button>
             <button className='flex items-center bg-yellow- gap-x-2.5'>
               <LinkedInIcon sx={{ fontSize: 16, color: "#26292c" }} />
-              <span className='text-xs text-[#4b5563] underline'>satyajeet-singh</span>
+              <span className='text-[10px] text-[#4b5563] underline'>satyajeet-singh</span>
             </button>
           </div>
         </div>
