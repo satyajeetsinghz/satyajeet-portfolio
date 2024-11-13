@@ -8,6 +8,9 @@ import Footer from './components/Footer'
 import Skills from './components/Skills'
 import WorkExperience from './components/WorkExperience'
 import MainDisplay from './components/MainDisplay';
+import InvalidPage from './components/InvalidPage';
+import Login from './components/Login';
+
 
 function App() {
 
@@ -17,7 +20,7 @@ function App() {
         <Navbar />
         {/* SPA navigation components */}
         <Routes>
-          <Route path="/" element={<MainDisplay/>} />
+          <Route path="/" element={<MainDisplay />} />
           <Route path="/work-experience" element={<WorkExperience />} />
         </Routes>
         <Footer />

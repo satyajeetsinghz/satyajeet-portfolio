@@ -1,0 +1,12 @@
+[
+    {
+      "id": 1,
+      "title": "Frontend project",
+      "subtitle": "Tailwind, React.",
+      "eyebrow": "Spotify",
+      "image": "https://th.bing.com/th/id/OIP.cTMuS3PM6ZtHf9ERUHKdbAAAAA?rs=1&pid=ImgDetMain",
+      "link": "https://spotifyclonebeta.vercel.app/",
+      "color": "#1ed760"
+    }
+  ]
+  

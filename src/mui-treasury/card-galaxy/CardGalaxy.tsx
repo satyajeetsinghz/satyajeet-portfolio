@@ -10,6 +10,7 @@ import {
   InfoTitle,
 } from "../info-basic";
 
+
 const useStyles = (): CSSObject & Partial<InfoSlotStyles> => {
   return {
     eyebrow: {
@@ -62,7 +63,7 @@ const StyledCardMedia = styled(CardMedia)({
   top: 0,
   left: 0,
   zIndex: 0,
-  backgroundPosition: "top",
+  backgroundPosition: "center"
 });
 
 const Content = styled("div")(({ theme }) => ({
@@ -73,21 +74,23 @@ const Content = styled("div")(({ theme }) => ({
   width: "100%",
 }));
 
-export function CardGalaxy() {
+export function CardGalaxy({ data }) {
   return (
-    <StyledCard>
-      <StyledCardMedia
-        image={
-          "https://th.bing.com/th/id/R.3b8272ec08433f6d0f4d99a29962395f?rik=Wwh3y71bX25NeQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f8%2ff%2f7%2f970619-vertical-tony-stark-wallpapers-1920x1080-pc.jpg&ehk=vFweZhUASuVE8KOtnIa9rjL2jBRlPxcOAI4k9eE3QoM%3d&risl=&pid=ImgRaw&r=0"
-        }
-      />
-      <Content>
-        <Info useStyles={useStyles}>
-          <InfoEyebrow>Galaxy</InfoEyebrow>
-          <InfoTitle>Buds 2019</InfoTitle>
-          <InfoSubtitle>Perfect for everyone</InfoSubtitle>
-        </Info>
-      </Content>
-    </StyledCard>
+    <>
+      {(data || []).map((item) => (
+        <a href={item.link} key={item.id} target="_blank" rel="noopener noreferrer">
+          <StyledCard key={item.id}>
+            <StyledCardMedia image={item.image} />
+            <Content>
+              <Info useStyles={useStyles}>
+                <InfoEyebrow>{item.eyebrow}</InfoEyebrow>
+                <InfoTitle sx={{color: item.color}}>{item.title}</InfoTitle>
+                <InfoSubtitle>{item.subtitle}</InfoSubtitle>
+              </Info>
+            </Content>
+          </StyledCard>
+        </a>
+      ))}
+    </>
   );
 }

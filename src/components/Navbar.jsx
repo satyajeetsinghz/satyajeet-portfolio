@@ -30,6 +30,10 @@ const Navbar = () => {
         navigate('/skills'); // Replace '/target-page' with your desired route
     };
 
+    const LoginPage = () => {
+        navigate('/login'); // Replace '/target-page' with your desired route
+    };
+
 
 
 
@@ -43,10 +47,10 @@ const Navbar = () => {
                         <span className='text-xs mx-1.5 font-semibold text-neutral-700'>SATYA</span>
                     </div>
 
-                    <div className='hidden sm:flex pr-4 space-x-4 font-semibold text-[#4b5563]'>
-                        <a onClick={toWorkExperience} className='bg-red-20 text-sm hover:text-[#32e4f4] cursor-pointer'>
-                            <div className='min-w-fit mr-6 ml-6 bg-[#32e4f4] h-0.5 relative bottom-[-34px]'></div>
-                            Work experience
+                    <div className='hidden sm:flex pr-6 space-x-4 font-semibold text-[#4b5563]'>
+                        <a className='bg-red-20 text-sm hover:text-[#32e4f4] cursor-pointer'>
+                            <div className='w-full bg-[#32e4f4] h-0.5 relative bottom-[-34px]'></div>
+                            Work
                         </a>
                     </div>
 

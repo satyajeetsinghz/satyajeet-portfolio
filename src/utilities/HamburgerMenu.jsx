@@ -13,7 +13,7 @@ const HamburgerMenu = ({ isOpen, toggleMenu }) => {
 
     return (
         <div className='relative'>
-            <div className={`fixed top-0 right-0 h-screen w-56 bg-white shadow-lg transform ${isOpen ? 'translate-x-0' : 'translate-x-full'
+            <div className={`fixed top-0 right-0 h-screen w-3/5 bg-white shadow-lg transform ${isOpen ? 'translate-x-0' : 'translate-x-full'
                 } transition-transform duration-300 ease-in-out z-50`}>
                 <button className="absolute top-4 right-4 text-gray-600" onClick={toggleMenu}>
                     <CloseSharpIcon />
@@ -23,8 +23,8 @@ const HamburgerMenu = ({ isOpen, toggleMenu }) => {
                 <ul className="flex flex-col justify-center items-center p-4 space-y-4 translate-y-32 text-lg">
                     <li>
                         {/* <div className='w-[2.5rem] ml-[50px] bg-[#32e4f4] h-0.5 relative bottom-[-34px]'></div> */}
-                        <a onClick={toWorkExperience} className='hover:text-[#32e4f4]'>
-                            Work experience
+                        <a className='hover:text-[#32e4f4]'>
+                            Option not avilable yet.
                         </a>
                     </li>
 
