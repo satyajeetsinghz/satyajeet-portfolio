@@ -5,7 +5,7 @@ import metaData from './Project.json'
 
 const Projects = () => {
     return (
-        <div className='flex min-h-fit items-start justify-center bg-neutral-00 pb-6'>
+        <div id='project' className='flex min-h-fit items-start justify-center bg-neutral-00 pb-6'>
             <div className="h-auto w-full bg-ed-300 mt-4 mb-4 md:w-[40rem] bg-red-00">
                 <div className="h-8 w-fit bg-ed-300 px-2 mx-0 py-1 bg-yellow-00">
                     <h2 className='text-[#292929] text-lg font-semibold'>Projects</h2>

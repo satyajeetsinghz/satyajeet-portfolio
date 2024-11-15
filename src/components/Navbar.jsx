@@ -19,19 +19,12 @@ const Navbar = () => {
     const toHome = () => {
         navigate('/'); // Replace '/target-page' with your desired route
     };
-    const toWorkExperience = () => {
-        navigate('/workexperience'); // Replace '/target-page' with your desired route
-    };
 
-    const toProjects = () => {
-        navigate('/project'); // Replace '/target-page' with your desired route
-    };
-    const toSkills = () => {
-        navigate('/skills'); // Replace '/target-page' with your desired route
-    };
-
-    const LoginPage = () => {
-        navigate('/login'); // Replace '/target-page' with your desired route
+    const navigateToSection = (id) => {
+        const section = document.getElementById(id);
+        if (section) {
+            section.scrollIntoView({ behavior: "smooth" });
+        }
     };
 
 
@@ -41,16 +34,26 @@ const Navbar = () => {
         <div className="flex items-start justify-center min-h-24 bg-gray-10 sticky top-0 inset-x-0 z-50">
             <div className='w-[98%] md:w-[85%] lg:w-[45%] h-12 mt-6 bg-white border border-neutral-200 rounded-full'>
                 <div className='flex justify-between items-center pt-2.5 pl-1 pr-1'>
-                    
+
                     <div onClick={toHome} className='mx-4 cursor-pointer'>
                         <PermContactCalendarIcon />
                         <span className='text-xs mx-1.5 font-semibold text-neutral-700'>SATYA</span>
                     </div>
 
                     <div className='hidden sm:flex pr-6 space-x-4 font-semibold text-[#4b5563]'>
-                        <a onClick={toWorkExperience} className='bg-red-20 text-sm hover:text-[#22262b] cursor-pointer'>
+                        <a onClick={() => navigateToSection('work')} className='bg-red-20 text-sm hover:text-[#22262b] cursor-pointer'>
                             <div className='w-full bg-[#151718] h-0.5 relative bottom-[-34px]'></div>
                             Work
+                        </a>
+
+                        <a onClick={() => navigateToSection('project')} className='bg-red-20 text-sm hover:text-[#22262b] cursor-pointer'>
+                            {/* <div className='w-full bg-[#151718] h-0.5 relative bottom-[-34px]'></div> */}
+                            Project
+                        </a>
+
+                        <a onClick={() => navigateToSection('skills')} className='bg-red-20 text-sm hover:text-[#22262b] cursor-pointer'>
+                            {/* <div className='w-full bg-[#151718] h-0.5 relative bottom-[-34px]'></div> */}
+                            Skills
                         </a>
                     </div>
 

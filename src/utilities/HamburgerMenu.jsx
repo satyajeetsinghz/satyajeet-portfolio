@@ -8,7 +8,7 @@ const HamburgerMenu = ({ isOpen, toggleMenu }) => {
     const navigate = useNavigate();
 
     const toWorkExperience = () => {
-        navigate('/work-experience'); // Replace '/target-page' with your desired route
+        navigate('/workexperience'); // Replace '/target-page' with your desired route
     };
 
     return (
@@ -23,7 +23,7 @@ const HamburgerMenu = ({ isOpen, toggleMenu }) => {
                 <ul className="flex flex-col justify-center items-center p-4 space-y-4 translate-y-32 text-lg">
                     <li>
                         {/* <div className='w-[2.5rem] ml-[50px] bg-[#32e4f4] h-0.5 relative bottom-[-34px]'></div> */}
-                        <a onClick={toWorkExperience} className='text-zinc-600 hover:text-[#151718]'>
+                        <a className='text-zinc-600 hover:text-[#151718]'>
                             <div className='w-full bg-[#151718] h-0.5 relative bottom-[-30px]'></div>
                             Work
                         </a>

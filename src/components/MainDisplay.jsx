@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Header'
 import Projects from './Projects'
 import Skills from './Skills'
+import WorkExperience from './WorkExperience'
 
 const MainDisplay = () => {
   return (
@@ -9,6 +10,7 @@ const MainDisplay = () => {
       <Header />
       <Projects />
       <Skills />
+      <WorkExperience />
     </div>
   )
 }
