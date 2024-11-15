@@ -83,8 +83,8 @@ export function CardGalaxy({ data }) {
             <StyledCardMedia image={item.image} />
             <Content>
               <Info useStyles={useStyles}>
-                <InfoEyebrow>{item.eyebrow}</InfoEyebrow>
-                <InfoTitle sx={{color: item.color}}>{item.title}</InfoTitle>
+                <InfoEyebrow sx={{color: item.color}}>{item.eyebrow}</InfoEyebrow>
+                <InfoTitle>{item.title}</InfoTitle>
                 <InfoSubtitle>{item.subtitle}</InfoSubtitle>
               </Info>
             </Content>

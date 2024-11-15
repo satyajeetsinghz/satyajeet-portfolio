@@ -27,15 +27,15 @@ const Header = () => {
           <div className='flex flex-col space-y-2.5'>
             <button className='flex items-center bg-yellow- gap-x-2.5'>
               <MailOutlineIcon sx={{ fontSize: 16, color: "#26292c" }} />
-              <span className='text-[11px] sm:text-[13px] text-[#4b5563] hover:text-[#32e4f4] font-normal underline'>satyajeetsingh.in@gmail.com</span>
+              <a href="mailto:satyajeetsingh.in@gmail.com" className='text-[11px] sm:text-[13px] text-[#4b5563] hover:text-[#22262b] font-normal hover:font-medium underline'>satyajeetsingh.in@gmail.com</a>
             </button>
             <button className='flex items-center bg-yellow- gap-x-2.5'>
               <GitHubIcon sx={{ fontSize: 16, color: "#26292c" }} />
-              <span className='text-[11px] sm:text-[13px] text-[#4b5563] hover:text-[#32e4f4] font-normal underline'>satyajeetsinghz</span>
+              <a href="https://github.com/satyajeetsinghz" className='text-[11px] sm:text-[13px] text-[#4b5563] hover:text-[#22262b] font-normal hover:font-medium underline'>satyajeetsinghz</a>
             </button>
             <button className='flex items-center bg-yellow- gap-x-2.5'>
               <LinkedInIcon sx={{ fontSize: 16, color: "#26292c" }} />
-              <span className='text-[11px] sm:text-[13px] text-[#4b5563] hover:text-[#32e4f4] font-normal underline'>satyajeet-singh</span>
+              <a href="https://www.linkedin.com/in/satyajeet-singh-a70633230/" className='text-[11px] sm:text-[13px] text-[#4b5563] hover:text-[#22262b] font-normal hover:font-medium underline'>satyajeet-singh</a>
             </button>
           </div>
         </div>

@@ -21,7 +21,7 @@ function App() {
         {/* SPA navigation components */}
         <Routes>
           <Route path="/" element={<MainDisplay />} />
-          <Route path="/work-experience" element={<WorkExperience />} />
+          <Route path="/workexperience" element={<WorkExperience />} />
         </Routes>
         <Footer />
       </div>

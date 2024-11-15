@@ -20,7 +20,7 @@ const Navbar = () => {
         navigate('/'); // Replace '/target-page' with your desired route
     };
     const toWorkExperience = () => {
-        navigate('/work-experience'); // Replace '/target-page' with your desired route
+        navigate('/workexperience'); // Replace '/target-page' with your desired route
     };
 
     const toProjects = () => {
@@ -48,8 +48,8 @@ const Navbar = () => {
                     </div>
 
                     <div className='hidden sm:flex pr-6 space-x-4 font-semibold text-[#4b5563]'>
-                        <a className='bg-red-20 text-sm hover:text-[#32e4f4] cursor-pointer'>
-                            <div className='w-full bg-[#32e4f4] h-0.5 relative bottom-[-34px]'></div>
+                        <a onClick={toWorkExperience} className='bg-red-20 text-sm hover:text-[#22262b] cursor-pointer'>
+                            <div className='w-full bg-[#151718] h-0.5 relative bottom-[-34px]'></div>
                             Work
                         </a>
                     </div>
