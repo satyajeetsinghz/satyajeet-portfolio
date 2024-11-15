@@ -24,7 +24,7 @@ const HamburgerMenu = ({ isOpen, toggleMenu }) => {
                 <ul className="flex flex-col justify-center items-center p-4 space-y-4 translate-y-32 text-lg">
                     <li>
                         {/* <div className='w-[2.5rem] ml-[50px] bg-[#32e4f4] h-0.5 relative bottom-[-34px]'></div> */}
-                        <a href="src\data\resume\Satyajeet_Singh_Resume.pdf" target="_blank" rel="noopener noreferrer" className='text-zinc-600 text-sm hover:text-[#151718]'>
+                        <a href="https://drive.google.com/file/d/1ZT9_304QxGgAoPouW7m2BBnFdw3EivF5/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className='text-zinc-600 text-sm hover:text-[#151718]'>
                             <div className='w-16 bg-[#151718] h-0.5 relative bottom-[-30px] translate-x-11'></div>
                             <div className='inline-flex items-center space-x-1'>
                                 <FilePresentIcon />

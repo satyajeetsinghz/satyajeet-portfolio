@@ -51,7 +51,7 @@ const Navbar = () => {
                             Project
                         </a>
 
-                        <a href="src\data\resume\Satyajeet_Singh_Resume.pdf" target="_blank" rel="noopener noreferrer" className='bg-red-20 text-sm hover:text-[#22262b] cursor-pointer'>
+                        <a href="https://drive.google.com/file/d/1ZT9_304QxGgAoPouW7m2BBnFdw3EivF5/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className='bg-red-20 text-sm hover:text-[#22262b] cursor-pointer'>
                             {/* <div className='w-full bg-[#151718] h-0.5 relative bottom-[-34px]'></div> */}
                             Curriculum-Vitae
                         </a>
