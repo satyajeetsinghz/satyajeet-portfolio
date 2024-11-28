@@ -42,8 +42,8 @@ const Navbar = () => {
 
                     <div className='hidden sm:flex pr-6 space-x-4 font-semibold text-[#4b5563]'>
                         <a onClick={() => navigateToSection('work')} className='bg-red-20 text-sm hover:text-[#22262b] cursor-pointer'>
-                            <div className='w-full bg-[#151718] h-0.5 relative bottom-[-34px]'></div>
-                            Work
+                            <div className='w-[60%] bg-[#151718] h-0.5 relative bottom-[-34px] mx-4'></div>
+                            Certification
                         </a>
 
                         <a onClick={() => navigateToSection('project')} className='bg-red-20 text-sm hover:text-[#22262b] cursor-pointer'>

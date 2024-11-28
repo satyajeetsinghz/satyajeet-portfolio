@@ -127,9 +127,11 @@ const WorkExperience = () => {
                     <div className="group relative flex gap-x-5">
                         {/* <!-- Icon --> */}
                         <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 :after:bg-neutral-700">
-                            <div className="relative z-10 size-6 flex justify-center items-center">
-                                <svg width="800px" height="800px" viewBox="0 0 32 32" data-name="Layer 1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"><path d="M23.75,16A7.7446,7.7446,0,0,1,8.7177,18.6259L4.2849,22.1721A13.244,13.244,0,0,0,29.25,16" fill="#00ac47" /><path d="M23.75,16a7.7387,7.7387,0,0,1-3.2516,6.2987l4.3824,3.5059A13.2042,13.2042,0,0,0,29.25,16" fill="#4285f4" /><path d="M8.25,16a7.698,7.698,0,0,1,.4677-2.6259L4.2849,9.8279a13.177,13.177,0,0,0,0,12.3442l4.4328-3.5462A7.698,7.698,0,0,1,8.25,16Z" fill="#ffba00" /><polygon fill="#2ab2db" points="8.718 13.374 8.718 13.374 8.718 13.374 8.718 13.374" /><path d="M16,8.25a7.699,7.699,0,0,1,4.558,1.4958l4.06-3.7893A13.2152,13.2152,0,0,0,4.2849,9.8279l4.4328,3.5462A7.756,7.756,0,0,1,16,8.25Z" fill="#ea4435" /><polygon fill="#2ab2db" points="8.718 18.626 8.718 18.626 8.718 18.626 8.718 18.626" /><path d="M29.25,15v1L27,19.5H16.5V14H28.25A1,1,0,0,1,29.25,15Z" fill="#4285f4" /></svg>
-                            </div>
+                            <a href="https://www.cloudskillsboost.google/public_profiles/6b69d573-8391-4a7b-ab42-caf1dc4375bc" className=' cursor-pointer'>
+                                <div className="relative z-10 size-6 flex justify-center items-center">
+                                    <svg width="800px" height="800px" viewBox="0 0 32 32" data-name="Layer 1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"><path d="M23.75,16A7.7446,7.7446,0,0,1,8.7177,18.6259L4.2849,22.1721A13.244,13.244,0,0,0,29.25,16" fill="#00ac47" /><path d="M23.75,16a7.7387,7.7387,0,0,1-3.2516,6.2987l4.3824,3.5059A13.2042,13.2042,0,0,0,29.25,16" fill="#4285f4" /><path d="M8.25,16a7.698,7.698,0,0,1,.4677-2.6259L4.2849,9.8279a13.177,13.177,0,0,0,0,12.3442l4.4328-3.5462A7.698,7.698,0,0,1,8.25,16Z" fill="#ffba00" /><polygon fill="#2ab2db" points="8.718 13.374 8.718 13.374 8.718 13.374 8.718 13.374" /><path d="M16,8.25a7.699,7.699,0,0,1,4.558,1.4958l4.06-3.7893A13.2152,13.2152,0,0,0,4.2849,9.8279l4.4328,3.5462A7.756,7.756,0,0,1,16,8.25Z" fill="#ea4435" /><polygon fill="#2ab2db" points="8.718 18.626 8.718 18.626 8.718 18.626 8.718 18.626" /><path d="M29.25,15v1L27,19.5H16.5V14H28.25A1,1,0,0,1,29.25,15Z" fill="#4285f4" /></svg>
+                                </div>
+                            </a>
                         </div>
                         {/* <!-- End Icon --> */}
 
@@ -140,9 +142,11 @@ const WorkExperience = () => {
                                 Oct '23 - Nov '23
                             </h3>
 
-                            <p className="font-semibold text-sm text-gray-800 :text-neutral-200">
-                                Google Cloud Computing Foundation & Genrative AI Arcade Game
-                            </p>
+                            <a href="https://www.cloudskillsboost.google/public_profiles/6b69d573-8391-4a7b-ab42-caf1dc4375bc">
+                                <p className="font-semibold text-sm text-gray-800 :text-neutral-200 cursor-pointer">
+                                    Google Cloud Computing Foundation & Genrative AI Arcade Game
+                                </p>
+                            </a>
 
                             <p className="mt-1 text-sm text-gray-600 :text-neutral-400">
                                 Acquiring a robust foundation in cloud architecture, advanced machine learning algorithms, and
@@ -152,6 +156,50 @@ const WorkExperience = () => {
                         {/* <!-- End Right Content --> */}
                     </div>
                     {/* <!-- End Item 3 --> */}
+
+
+
+
+                    {/* <!-- Item 3--> */}
+                    <div className="group relative flex gap-x-5">
+                        {/* <!-- Icon --> */}
+                        <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 :after:bg-neutral-700">
+                            <a href="https://coursera.org/share/e47b86759edc8a06092e5ac0a6164171" className=' cursor-pointer'>
+                                <div className="relative z-10 size-6 flex justify-center items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
+                                        <path fill="#0081fb" d="M47,29.36l-2.193,1.663L42.62,29.5c0-0.16,0-0.33-0.01-0.5c0-0.16,0-0.33-0.01-0.5	c-0.14-3.94-1.14-8.16-3.14-11.25c-1.54-2.37-3.51-3.5-5.71-3.5c-2.31,0-4.19,1.38-6.27,4.38c-0.06,0.09-0.13,0.18-0.19,0.28	c-0.04,0.05-0.07,0.1-0.11,0.16c-0.1,0.15-0.2,0.3-0.3,0.46c-0.9,1.4-1.84,3.03-2.86,4.83c-0.09,0.17-0.19,0.34-0.28,0.51	c-0.03,0.04-0.06,0.09-0.08,0.13l-0.21,0.37l-1.24,2.19c-2.91,5.15-3.65,6.33-5.1,8.26C14.56,38.71,12.38,40,9.51,40	c-3.4,0-5.56-1.47-6.89-3.69C1.53,34.51,1,32.14,1,29.44l4.97,0.17c0,1.76,0.38,3.1,0.89,3.92C7.52,34.59,8.49,35,9.5,35	c1.29,0,2.49-0.27,4.77-3.43c1.83-2.53,3.99-6.07,5.44-8.3l1.37-2.09l0.29-0.46l0.3-0.45l0.5-0.77c0.76-1.16,1.58-2.39,2.46-3.57	c0.1-0.14,0.2-0.28,0.31-0.42c0.1-0.14,0.21-0.28,0.31-0.41c0.9-1.15,1.85-2.22,2.87-3.1c1.85-1.61,3.84-2.5,5.85-2.5	c3.37,0,6.58,1.95,9.04,5.61c2.51,3.74,3.82,8.4,3.97,13.25c0.01,0.16,0.01,0.33,0.01,0.5C47,29.03,47,29.19,47,29.36z"></path><linearGradient id="wSMw7pqi7WIWHewz2_TZXa_PvvcWRWxRKSR_gr1" x1="42.304" x2="13.533" y1="24.75" y2="24.75" gradientUnits="userSpaceOnUse"><stop offset="0" stopColor="#0081fb"></stop><stop offset=".995" stopColor="#0064e1"></stop></linearGradient><path fill="url(#wSMw7pqi7WIWHewz2_TZXa_PvvcWRWxRKSR_gr1)" d="M4.918,15.456	C7.195,11.951,10.483,9.5,14.253,9.5c2.184,0,4.354,0.645,6.621,2.493c2.479,2.02,5.122,5.346,8.419,10.828l1.182,1.967	c2.854,4.746,4.477,7.187,5.428,8.339C37.125,34.606,37.888,35,39,35c2.82,0,3.617-2.54,3.617-5.501L47,29.362	c0,3.095-0.611,5.369-1.651,7.165C44.345,38.264,42.387,40,39.093,40c-2.048,0-3.862-0.444-5.868-2.333	c-1.542-1.45-3.345-4.026-4.732-6.341l-4.126-6.879c-2.07-3.452-3.969-6.027-5.068-7.192c-1.182-1.254-2.642-2.754-5.067-2.754	c-1.963,0-3.689,1.362-5.084,3.465L4.918,15.456z"></path><linearGradient id="wSMw7pqi7WIWHewz2_TZXb_PvvcWRWxRKSR_gr2" x1="7.635" x2="7.635" y1="32.87" y2="13.012" gradientUnits="userSpaceOnUse"><stop offset="0" stopColor="#0081fb"></stop><stop offset=".995" stopColor="#0064e1"></stop></linearGradient><path fill="url(#wSMw7pqi7WIWHewz2_TZXb_PvvcWRWxRKSR_gr2)" d="M14.25,14.5	c-1.959,0-3.683,1.362-5.075,3.465C7.206,20.937,6,25.363,6,29.614c0,1.753-0.003,3.072,0.5,3.886l-3.84,2.813	C1.574,34.507,1,32.2,1,29.5c0-4.91,1.355-10.091,3.918-14.044C7.192,11.951,10.507,9.5,14.27,9.5L14.25,14.5z"></path><path d="M21.67,20.27l-0.3,0.45l-0.29,0.46c0.71,1.03,1.52,2.27,2.37,3.69l0.21-0.37c0.02-0.04,0.05-0.09,0.08-0.13 c0.09-0.17,0.19-0.34,0.28-0.51C23.19,22.5,22.39,21.29,21.67,20.27z M24.94,15.51c-0.11,0.14-0.21,0.28-0.31,0.42 c0.73,0.91,1.47,1.94,2.25,3.1c0.1-0.16,0.2-0.31,0.3-0.46c0.04-0.06,0.07-0.11,0.11-0.16c0.06-0.1,0.13-0.19,0.19-0.28 c-0.76-1.12-1.5-2.13-2.23-3.03C25.15,15.23,25.04,15.37,24.94,15.51z" opacity=".05"></path><path d="M21.67,20.27l-0.3,0.45c0.71,1.02,1.51,2.24,2.37,3.65c0.09-0.17,0.19-0.34,0.28-0.51C23.19,22.5,22.39,21.29,21.67,20.27 z M24.63,15.93c0.73,0.91,1.47,1.94,2.25,3.1c0.1-0.16,0.2-0.31,0.3-0.46c-0.77-1.14-1.52-2.16-2.24-3.06 C24.83,15.65,24.73,15.79,24.63,15.93z" opacity=".07"></path>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                        {/* <!-- End Icon --> */}
+
+
+                        {/* <!-- Right Content --> */}
+                        <div className="grow pb-8 group-last:pb-0">
+                            <h3 className="mb-1 text-xs text-gray-600 :text-neutral-400">
+                                August 2024
+                            </h3>
+
+                            <a href="https://coursera.org/share/e47b86759edc8a06092e5ac0a6164171">
+                                <p className="font-semibold text-sm text-gray-800 :text-neutral-200 cursor-pointer">
+                                    Meta Introduction to Front-End Development
+                                </p>
+                            </a>
+
+                            <p className="mt-1 text-sm text-gray-600 :text-neutral-400">
+                                Earned a certificate in Introduction to Front-End Development by Meta, where I learned the basics of HTML, CSS, and JavaScript. This course helped me build responsive and user-friendly web interfaces while improving my front-end development skills.
+                            </p>
+                        </div>
+                        {/* <!-- End Right Content --> */}
+                    </div>
+                    {/* <!-- End Item 3 --> */}
+
+
+
+
+
+
 
                     {/* <!-- Item 4--> */}
                     <div className="group relative flex gap-x-5">
@@ -175,13 +223,13 @@ const WorkExperience = () => {
 
                             <ul className="list-disc ms-6 mt-3 space-y-1.5">
                                 <li className="ps-1 text-sm text-gray-600 :text-neutral-400">
-                                Developed and deployed a Registration Form with functional user input handling as part of a Bharat Intern virtual internship.
+                                    Developed and deployed a Registration Form with functional user input handling as part of a Bharat Intern virtual internship.
                                 </li>
                                 <li className="ps-1 text-sm text-gray-600 :text-neutral-400">
-                                Built a fully functional Money Tracker Web App, implementing dynamic tracking and UI enhancements.
+                                    Built a fully functional Money Tracker Web App, implementing dynamic tracking and UI enhancements.
                                 </li>
                                 <li className="ps-1 text-sm text-gray-600 :text-neutral-400">
-                                Developed a Blog Website project using the MERN stack, integrating front-end, back-end, and database management.
+                                    Developed a Blog Website project using the MERN stack, integrating front-end, back-end, and database management.
                                 </li>
                             </ul>
                         </div>
