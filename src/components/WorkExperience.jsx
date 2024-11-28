@@ -5,7 +5,7 @@ const WorkExperience = () => {
         <div id="work" className="flex min-h-fit items-start justify-center mb-8 sm:mt-2">
             <div className='h-auto w-full bg-ed-300 mt-4 mb-4 mx-auto md:w-[40rem] bg-red-00'>
                 <h2 className="mb-5 mx-2 text-lg font-medium text-gray-800">
-                    Certification and Internship
+                    Certification & Internship
                 </h2>
 
                 {/* <!-- Timeline --> */}
@@ -139,7 +139,7 @@ const WorkExperience = () => {
                         {/* <!-- Right Content --> */}
                         <div className="grow pb-8 group-last:pb-0">
                             <h3 className="mb-1 text-xs text-gray-600 :text-neutral-400">
-                                Oct '23 - Nov '23
+                                Earned Oct'23
                             </h3>
 
                             <a href="https://www.cloudskillsboost.google/public_profiles/6b69d573-8391-4a7b-ab42-caf1dc4375bc">
@@ -178,7 +178,7 @@ const WorkExperience = () => {
                         {/* <!-- Right Content --> */}
                         <div className="grow pb-8 group-last:pb-0">
                             <h3 className="mb-1 text-xs text-gray-600 :text-neutral-400">
-                                August 2024
+                                Earned Aug'24
                             </h3>
 
                             <a href="https://coursera.org/share/e47b86759edc8a06092e5ac0a6164171">
