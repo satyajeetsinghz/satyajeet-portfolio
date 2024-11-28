@@ -5,7 +5,7 @@ const WorkExperience = () => {
         <div id="work" className="flex min-h-fit items-start justify-center mb-8 sm:mt-2">
             <div className='h-auto w-full bg-ed-300 mt-4 mb-4 mx-auto md:w-[40rem] bg-red-00'>
                 <h2 className="mb-5 mx-2 text-lg font-medium text-gray-800">
-                    Work experience
+                    Certification and Internship
                 </h2>
 
                 {/* <!-- Timeline --> */}
