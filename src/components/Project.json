@@ -1,12 +1,12 @@
 [
     {
       "id": 1,
-      "title": "Frontend project",
+      "title": "Auralis: Web Player",
       "subtitle": "Tailwind, React.",
-      "eyebrow": "Spotify",
+      "eyebrow": "Frontend Project",
       "image": "https://th.bing.com/th/id/OIP.cTMuS3PM6ZtHf9ERUHKdbAAAAA?rs=1&pid=ImgDetMain",
-      "link": "https://spotifyclonebeta.vercel.app/",
-      "color": "#1ed760"
+      "link": "https://openauralis.vercel.app/",
+      "color": "#FFF"
     }
   ]
   

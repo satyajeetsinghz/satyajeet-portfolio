@@ -23,8 +23,8 @@ const useStyles = (): CSSObject & Partial<InfoSlotStyles> => {
       marginBottom: 0,
     },
     title: {
-      color: "#fff",
-      fontSize: "1.25rem",
+      color: "#4CC9FE",
+      fontSize: "1rem",
       fontWeight: "bold" as const,
       lineHeight: 1.2,
     },
