@@ -197,6 +197,41 @@ const WorkExperience = () => {
 
 
 
+                    {/* <!-- Item 3--> */}
+                    <div className="group relative flex gap-x-5">
+                        {/* <!-- Icon --> */}
+                        <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 :after:bg-neutral-700">
+                            <a href="https://drive.google.com/file/d/1jV9qalJNtOaQ8y2m0CRxzB4uCUmsXxxl/view?usp=drive_link" className=' cursor-pointer'>
+                                <div className="relative z-10 size-5 flex justify-center items-center">
+                                    <img src="/logo/accenture.svg" alt="Accenture logo" />
+                                </div>
+                            </a>
+                        </div>
+                        {/* <!-- End Icon --> */}
+
+
+                        {/* <!-- Right Content --> */}
+                        <div className="grow pb-8 group-last:pb-0">
+                            <h3 className="mb-1 text-xs text-gray-600 :text-neutral-400">
+                                Earned Dec'24
+                            </h3>
+
+                            <a href="https://drive.google.com/file/d/1jV9qalJNtOaQ8y2m0CRxzB4uCUmsXxxl/view?usp=drive_link">
+                                <p className="font-semibold text-sm text-gray-800 :text-neutral-200 cursor-pointer">
+                                    Accenture Developer and Technology Job Simulation
+                                </p>
+                            </a>
+
+                            <p className="mt-1 text-sm text-gray-600 :text-neutral-400">
+                                The Accenture Developer and Technology Job Simulation certification demonstrates my practical skills in software development and technology solutions, gained through hands-on simulations of real-world scenarios. It highlights my proficiency in problem-solving, coding, and utilizing innovative tools aligned with Accenture's standards for delivering cutting-edge technology services.
+                            </p>
+                        </div>
+                        {/* <!-- End Right Content --> */}
+                    </div>
+                    {/* <!-- End Item 3 --> */}
+
+
+
 
 
 
