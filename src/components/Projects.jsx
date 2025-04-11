@@ -1,4 +1,3 @@
-import React from 'react'
 import '../utilities/Card.css'
 import { CardGalaxy } from '../mui-treasury/card-galaxy/CardGalaxy';
 import metaData from './Project.json'

@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 import PermContactCalendarIcon from '@mui/icons-material/PermContactCalendar';
 import HamburgerMenu from '../utilities/HamburgerMenu';
+import { useState } from 'react';
 
 const Navbar = () => {
 
