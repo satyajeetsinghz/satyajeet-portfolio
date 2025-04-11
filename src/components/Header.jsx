@@ -9,7 +9,7 @@ const Header = () => {
       <div className="h-auto w-full bg-ed-300 mt-4 mb-4 md:w-[40rem] bg-red-00">
         <div className="h-16 w-full bg-ed-300 px-2 py-1 bg-yellow-00">
           <div>
-            <img className="size-14 md:size-16 rounded-full object-cover object-center" src="https://media.licdn.com/dms/image/v2/D5603AQFs5wapq63OBA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726377182693?e=1736985600&v=beta&t=Xsv5nAh8VLD0_f7uZ9WQgdm_kf-Qoqwo9QYUjLBLe6w" alt="" />
+            <img className="size-14 md:size-16 rounded-full object-cover object-center" src="src\assets\img\profile-pic.jpg" alt="Profile Pic" />
           </div>
           <div className="absolute top-0 translate-y-[8.3rem] md:translate-y-[8rem] translate-x-[4.5rem] md:translate-x-[5rem]">
             <h3 className="font-semibold text-lg text-gray-800">Satyajeet Singh</h3>
