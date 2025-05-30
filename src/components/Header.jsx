@@ -13,7 +13,7 @@ const Header = () => {
           </div>
           <div className="absolute top-0 translate-y-[8.3rem] md:translate-y-[8rem] translate-x-[4.5rem] md:translate-x-[5rem]">
             <h3 className="font-semibold text-lg text-gray-800">Satyajeet Singh</h3>
-            <p className="text-sm text-white max-w-max bg-gradient-to-r from-emerald-400 via-emerald-300 to-blue-400 py-0.5 px-1">Frontend Dev, UI/UX Designer.</p>
+            <p className="text-sm text-white max-w-max bg-emerald-400 py-0.5 px-1">Frontend Dev, UI/UX Designer.</p>
           </div>
         </div>
         <div className="text-gray-600 text-[0.875rem] leading-[1.45rem] p-2 bg-cyan-00 mt-4">
