@@ -137,7 +137,7 @@ const WorkExperience = () => {
 
                         {/* <!-- Right Content --> */}
                         <div className="grow pb-8 group-last:pb-0">
-                            <h3 className="mb-1 text-xs text-white bg-emerald-400 max-w-max py-0.5 px-1 :text-neutral-400">
+                            <h3 className="mb-1 text-xs text-white bg-emerald-400 max-w-max px-1 :text-neutral-400">
                                 Earned Oct'23
                             </h3>
 
@@ -176,7 +176,7 @@ const WorkExperience = () => {
 
                         {/* <!-- Right Content --> */}
                         <div className="grow pb-8 group-last:pb-0">
-                            <h3 className="mb-1 text-xs text-white bg-emerald-400 max-w-max py-0.5 px-1 :text-neutral-400">
+                            <h3 className="mb-1 text-xs text-white bg-emerald-400 max-w-max px-1 :text-neutral-400">
                                 Earned Aug'24
                             </h3>
 
@@ -211,7 +211,7 @@ const WorkExperience = () => {
 
                         {/* <!-- Right Content --> */}
                         <div className="grow pb-8 group-last:pb-0">
-                            <h3 className="mb-1 text-xs text-white bg-emerald-400 max-w-max py-0.5 px-1 :text-neutral-400">
+                            <h3 className="mb-1 text-xs text-white bg-emerald-400 max-w-max px-1 :text-neutral-400">
                                 Earned Dec'24
                             </h3>
 
