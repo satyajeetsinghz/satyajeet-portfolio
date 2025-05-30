@@ -3,8 +3,8 @@ const WorkExperience = () => {
     return (
         <div id="work" className="flex min-h-fit items-start justify-center mb-8 sm:mt-2">
             <div className='h-auto w-full bg-ed-300 mt-4 mb-4 mx-auto md:w-[40rem] bg-red-00'>
-                <h2 className="mb-5 mx-2 text-lg font-medium text-gray-800">
-                    Certification & Internship
+                <h2 className="mb-5 mx-2 text-lg font-semibold text-[#292929]">
+                    Certification
                 </h2>
 
                 {/* <!-- Timeline --> */}
@@ -137,7 +137,7 @@ const WorkExperience = () => {
 
                         {/* <!-- Right Content --> */}
                         <div className="grow pb-8 group-last:pb-0">
-                            <h3 className="mb-1 text-xs text-gray-600 :text-neutral-400">
+                            <h3 className="mb-1 text-xs text-white bg-emerald-400 max-w-max py-0.5 px-1 :text-neutral-400">
                                 Earned Oct'23
                             </h3>
 
@@ -176,7 +176,7 @@ const WorkExperience = () => {
 
                         {/* <!-- Right Content --> */}
                         <div className="grow pb-8 group-last:pb-0">
-                            <h3 className="mb-1 text-xs text-gray-600 :text-neutral-400">
+                            <h3 className="mb-1 text-xs text-white bg-emerald-400 max-w-max py-0.5 px-1 :text-neutral-400">
                                 Earned Aug'24
                             </h3>
 
@@ -211,7 +211,7 @@ const WorkExperience = () => {
 
                         {/* <!-- Right Content --> */}
                         <div className="grow pb-8 group-last:pb-0">
-                            <h3 className="mb-1 text-xs text-gray-600 :text-neutral-400">
+                            <h3 className="mb-1 text-xs text-white bg-emerald-400 max-w-max py-0.5 px-1 :text-neutral-400">
                                 Earned Dec'24
                             </h3>
 
@@ -228,48 +228,6 @@ const WorkExperience = () => {
                         {/* <!-- End Right Content --> */}
                     </div>
                     {/* <!-- End Item 3 --> */}
-
-
-
-
-
-
-
-                    {/* <!-- Item 4--> */}
-                    <div className="group relative flex gap-x-5">
-                        {/* <!-- Icon --> */}
-                        <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 :after:bg-neutral-700">
-                            <div className="relative z-10 size-6 flex justify-center items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="ionicon" viewBox="0 0 512 512"><rect x="32" y="128" width="448" height="320" rx="48" ry="48" fill="none" stroke="currentColor" strokeLinejoin="round" strokeWidth="32" /><path d="M144 128V96a32 32 0 0132-32h160a32 32 0 0132 32v32M480 240H32M320 240v24a8 8 0 01-8 8H200a8 8 0 01-8-8v-24" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" /></svg>
-                            </div>
-                        </div>
-                        {/* <!-- End Icon --> */}
-
-                        {/* <!-- Right Content --> */}
-                        <div className="grow pb-8 group-last:pb-0">
-                            <h3 className="mb-1 text-xs text-gray-600 :text-neutral-400">
-                                Aug '24 - Sep '24
-                            </h3>
-
-                            <p className="font-semibold text-sm text-gray-800 :text-neutral-200">
-                                Bharat Intern Virtual Internship
-                            </p>
-
-                            <ul className="list-disc ms-6 mt-3 space-y-1.5">
-                                <li className="ps-1 text-sm text-gray-600 :text-neutral-400">
-                                    Developed and deployed a Registration Form with functional user input handling as part of a Bharat Intern virtual internship.
-                                </li>
-                                <li className="ps-1 text-sm text-gray-600 :text-neutral-400">
-                                    Built a fully functional Money Tracker Web App, implementing dynamic tracking and UI enhancements.
-                                </li>
-                                <li className="ps-1 text-sm text-gray-600 :text-neutral-400">
-                                    Developed a Blog Website project using the MERN stack, integrating front-end, back-end, and database management.
-                                </li>
-                            </ul>
-                        </div>
-                        {/* <!-- End Right Content --> */}
-                    </div>
-                    {/* <!-- End Item 4 --> */}
                 </div>
             </div>
             {/* <!-- End Timeline --> */}

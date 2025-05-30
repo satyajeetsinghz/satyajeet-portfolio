@@ -23,13 +23,14 @@ const useStyles = (): CSSObject & Partial<InfoSlotStyles> => {
       marginBottom: 0,
     },
     title: {
-      color: "#4CC9FE",
+      color: "rgba(52, 211, 153, 1)"
+,
       fontSize: "1rem",
       fontWeight: "bold" as const,
       lineHeight: 1.2,
     },
     subtitle: {
-      color: "rgba(255, 255, 255, 0.72)",
+      color: "#facc15",
       lineHeight: 1.5,
       "&:last-child": {
         marginTop: "0rem",

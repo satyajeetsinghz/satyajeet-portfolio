@@ -24,11 +24,11 @@ const HamburgerMenu = ({ isOpen, toggleMenu }) => {
                 <ul className="flex flex-col justify-center items-center p-4 space-y-4 translate-y-32 text-lg">
                     <li>
                         {/* <div className='w-[2.5rem] ml-[50px] bg-[#32e4f4] h-0.5 relative bottom-[-34px]'></div> */}
-                        <a href="https://drive.google.com/file/d/1VJJKTrfNMNz9hy4eZEi1pTEQdDFocpRP/view?usp=sharing" target="_blank" rel="noopener noreferrer" className='text-zinc-600 text-sm hover:text-[#151718]'>
+                        <a href="" target="_blank" rel="noopener noreferrer" className='text-zinc-600 text-sm hover:text-[#151718]'>
                             <div className='w-16 bg-[#151718] h-0.5 relative bottom-[-30px] translate-x-11'></div>
                             <div className='inline-flex items-center space-x-1'>
                                 <FilePresentIcon />
-                                <span>Curriculum Vitae</span>
+                                <span>Not Avilable</span>
                             </div>
                         </a>
                     </li>

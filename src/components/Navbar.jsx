@@ -37,7 +37,7 @@ const Navbar = () => {
 
                     <div onClick={toHome} className='mx-4 cursor-pointer'>
                         <PermContactCalendarIcon />
-                        <span className='text-xs mx-1.5 font-semibold text-neutral-700'>SATYA</span>
+                        <span className='text-xs mx-1.5 font-semibold text-neutral-700'>Satyajeet Singh</span>
                     </div>
 
                     <div className='hidden sm:flex pr-6 space-x-4 font-semibold text-[#4b5563]'>
@@ -51,9 +51,9 @@ const Navbar = () => {
                             Project
                         </a>
 
-                        <a href="https://drive.google.com/file/d/1VJJKTrfNMNz9hy4eZEi1pTEQdDFocpRP/view?usp=sharing" target="_blank" rel="noopener noreferrer" className='bg-red-20 text-sm hover:text-[#22262b] cursor-pointer'>
+                        <a href="" target="_blank" rel="noopener noreferrer" className='bg-red-20 text-sm hover:text-[#22262b] cursor-pointer'>
                             {/* <div className='w-full bg-[#151718] h-0.5 relative bottom-[-34px]'></div> */}
-                            Curriculum-Vitae
+                            Not Avilable
                         </a>
                     </div>
 

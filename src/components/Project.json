@@ -1,11 +1,11 @@
 [
     {
       "id": 1,
-      "title": "Auralis: Web Player",
-      "subtitle": "Tailwind, React.",
-      "eyebrow": "Frontend Project",
+      "title": "MB: MusiclyBit",
+      "subtitle": "React and Firebase.",
+      "eyebrow": "Web Application",
       "image": "https://th.bing.com/th/id/OIP.cTMuS3PM6ZtHf9ERUHKdbAAAAA?rs=1&pid=ImgDetMain",
-      "link": "https://openauralis.vercel.app/",
+      "link": "https://openmusiclybit.vercel.app/",
       "color": "#FFF"
     }
   ]
