@@ -1,0 +1,21 @@
+[
+  {
+    "id": "musiclybit",
+    "title": "MB: MusiclyBit",
+    "titleColor": "emerald",
+    "subtitle": "A personalized Music web app.",
+    "image": "/assets/musiclybit-cover-projectcard.png",
+    "link": "https://openmusiclybit.vercel.app/",
+    "backgroundGradient": "from-black/90 to-transparent",
+    "buttons": [
+      {
+        "label": "React",
+        "bgColor": "cyan"
+      },
+      {
+        "label": "Firebase",
+        "bgColor": "yellow"
+      }
+    ]
+  }
+]

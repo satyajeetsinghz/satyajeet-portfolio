@@ -1,6 +1,7 @@
 import '../utilities/Card.css'
-import { CardGalaxy } from '../mui-treasury/card-galaxy/CardGalaxy';
-import metaData from './Project.json'
+import ProjectCard from '../utilities/ProjectCard'
+// import { CardGalaxy } from '../mui-treasury/card-galaxy/CardGalaxy';
+// import metaData from './Project.json'
 
 const Projects = () => {
     return (
@@ -11,21 +12,22 @@ const Projects = () => {
                 </div>
 
 
-                {/* Card Container  */}
-                <div className="hidden translate-y-4 pl-2 pr-2 py-1 mb-2 mx-auto bg-neutral-00 w-full h-auto sm:flex md:flex lg:flex flex-col overflow-auto justify-start scrollbar-hide">
-                    {/* Card 1 */}
-                    <div className='flex gap-[1rem] cursor-pointer'>
-                        <CardGalaxy data={metaData}/>
+                {/* Card Container */}
+                <div className="translate-y-4 pl-2 pr-2 py-1 mb-2 mx-auto bg-neutral-00 w-full h-auto overflow-x-auto scrollbar-hide">
+                    {/* Horizontal Cards Wrapper */}
+                    <div className="flex gap-2 min-w-max">
+                        <ProjectCard />
+                        {/* Add more <ProjectCard /> components as needed */}
                     </div>
                 </div>
 
+
                 {/* Mobile View  */}
-                <div className="translate-y-6 pl-2 pr-2 py-1 mb-2 mx-auto bg-neutral-00 w-full h-auto flex overflow-auto justify-start md:hidden lg:hidden">
-                    {/* Card 1 */}
+                {/* <div className="translate-y-6 pl-2 pr-2 py-1 mb-2 mx-auto bg-neutral-00 w-full h-auto flex overflow-auto justify-start md:hidden lg:hidden">
                     <div className='flex scrollbar-hide gap-[2rem] cursor-pointer'>
-                    <CardGalaxy data={metaData}/>
+                        <ProjectCard />
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )
