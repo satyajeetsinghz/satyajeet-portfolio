@@ -6,7 +6,7 @@ const CertificateCard = () => {
     return (
         <div className="relative">
             {/* Horizontal Scrollable Card Container */}
-            <div className="flex flex-nowrap gap-4 overflow-x-auto scrollbar-hide px-2">
+            <div className="flex flex-nowrap gap-4 overflow-x-auto scrollbar-hide px-2 pb-0.5">
                 {cardsData.map((card, index) => (
                     <a
                         key={index}
