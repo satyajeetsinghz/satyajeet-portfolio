@@ -1,16 +1,15 @@
-import React from 'react'
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 import CloseSharpIcon from '@mui/icons-material/CloseSharp';
 import FilePresentIcon from '@mui/icons-material/FilePresent';
 
 const HamburgerMenu = ({ isOpen, toggleMenu }) => {
 
 
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
-    const toWorkExperience = () => {
-        navigate('/workexperience'); // Replace '/target-page' with your desired route
-    };
+    // const toWorkExperience = () => {
+    //     navigate('/workexperience'); // Replace '/target-page' with your desired route
+    // };
 
     return (
         <div className='relative'>
@@ -24,13 +23,22 @@ const HamburgerMenu = ({ isOpen, toggleMenu }) => {
                 <ul className="flex flex-col justify-center items-center p-4 space-y-4 translate-y-32 text-lg">
                     <li>
                         {/* <div className='w-[2.5rem] ml-[50px] bg-[#32e4f4] h-0.5 relative bottom-[-34px]'></div> */}
-                        <a href="" target="_blank" rel="noopener noreferrer" className='text-zinc-600 text-sm hover:text-[#151718]'>
-                            <div className='w-16 bg-[#151718] h-0.5 relative bottom-[-30px] translate-x-11'></div>
-                            <div className='inline-flex items-center space-x-1'>
+                        <li>
+                            <a
+                                href=""
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-zinc-600 text-sm hover:text-[#151718] flex items-center space-x-1"
+                            >
                                 <FilePresentIcon />
-                                <span>Not Avilable</span>
-                            </div>
-                        </a>
+                                <span className="relative group">
+                                    Not Available
+                                    <span className="absolute left-1/2 -bottom-1 w-9/12 h-[1px] bg-emerald-400 scale-x-0 group-hover:scale-x-100 transition-transform origin-center duration-300 transform -translate-x-1/2"></span>
+                                </span>
+                            </a>
+                        </li>
+
+
                     </li>
 
                     {/* Spotify Project link  */}

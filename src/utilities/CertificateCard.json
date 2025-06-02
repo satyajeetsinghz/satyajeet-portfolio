@@ -3,29 +3,29 @@
     "logo": "Google",
     "image": "/assets/icons8-google-240.png",
     "title": "Google Cloud Computing Foundations & Generative AI Arcade Game",
-    "linkDetails": "",
+    "linkDetails": "View Certificate",
     "description": "Accomplished hands on training in Google Cloud services and deployment, applied Generative AI in real scenarios.",
     "badgeText": "Issued on Mar 2024",
-    "link": ""
+    "link": "/certificates/GSCF - Satyajeet Singh.pdf"
   },
   {
     "logo": "Meta",
     "image": "/assets/icons8-meta-240.png",
     "title": " Introduction to Front End Development",
-    "linkDetails": "",
+    "linkDetails": "View Certificate",
     "subtitle": "Certification",
     "description": "Accomplished Meta front-end course covering HTML, CSS, JavaScript, responsive design, UI principles, and accessibility.",
     "badgeText": "Issued on Aug 2024",
-    "link": ""
+    "link": "/certificates/Coursera TS9VQ7QSM88B.pdf"
   },
   {
     "logo": "Accenture",
     "image": "/assets/icons8_accenture-240.png",
     "title": "Developer and Technology Job Simulation",
-    "linkDetails": "",
+    "linkDetails": "View Certificate",
     "subtitle": "Certification",
     "description": "Accomplished Accenture Developer and Technology Job Simulation, showcasing advanced skills in real world technical scenarios.",
     "badgeText": "Issued on Dec 2024",
-    "link": ""
+    "link": "/certificates/3xnZEj9kfpoQKW885_ovyvuqqNRQKBjNxbj_76DmKrBQFpewH29zy_1733404104867_completion_certificate.pdf"
   }
 ]

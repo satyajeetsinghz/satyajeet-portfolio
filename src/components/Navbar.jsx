@@ -37,25 +37,29 @@ const Navbar = () => {
 
                     <div onClick={toHome} className='mx-4 cursor-pointer'>
                         <PermContactCalendarIcon />
-                        <span className='text-xs mx-1.5 font-semibold text-neutral-700'>Satyajeet Singh</span>
+                        <span className='text-sm mx-1.5 font-semibold text-neutral-700'>Satyajeet Singh</span>
                     </div>
 
                     <div className='hidden sm:flex pr-6 space-x-4 font-semibold text-[#4b5563]'>
-                        <a onClick={() => navigateToSection('work')} className='bg-red-20 text-sm hover:text-[#22262b] cursor-pointer'>
-                            <div className='w-[60%] bg-[#151718] h-0.5 relative bottom-[-34px] mx-4'></div>
-                            Certification
-                        </a>
-
-                        <a onClick={() => navigateToSection('project')} className='bg-red-20 text-sm hover:text-[#22262b] cursor-pointer'>
-                            {/* <div className='w-full bg-[#151718] h-0.5 relative bottom-[-34px]'></div> */}
-                            Project
-                        </a>
-
-                        <a href="" target="_blank" rel="noopener noreferrer" className='bg-red-20 text-sm hover:text-[#22262b] cursor-pointer'>
-                            {/* <div className='w-full bg-[#151718] h-0.5 relative bottom-[-34px]'></div> */}
-                            Not Avilable
-                        </a>
+                        {[
+                            { label: 'Certification', section: 'work' },
+                            { label: 'Project', section: 'project' },
+                            { label: 'Not Available', section: null },
+                        ].map(({ label, section }, index) => (
+                            <a
+                                key={index}
+                                onClick={() => section && navigateToSection(section)}
+                                href={section ? undefined : '#'}
+                                className='group relative text-sm cursor-pointer text-[#4b5563] hover:text-[#22262b] transition-colors duration-300 ease-in-out pb-1'
+                            >
+                                {label}
+                                <span className="absolute left-1/2 bottom-0 h-[1px] w-0 bg-emerald-400 group-hover:w-1/2 transition-all duration-300 ease-in-out transform -translate-x-1/2 rounded-full"></span>
+                            </a>
+                        ))}
                     </div>
+
+
+
 
                     {/* Mobile View  */}
                     <div className='flex pr-1 space-x-4 font-semibold text-[#4b5563] sm:hidden md:hidden lg:hidden xl:hidden'>
