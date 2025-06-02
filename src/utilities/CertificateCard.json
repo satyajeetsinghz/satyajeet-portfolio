@@ -1,0 +1,31 @@
+[
+  {
+    "logo": "Google",
+    "image": "/assets/icons8-google-240.png",
+    "title": "Google Cloud Computing Foundations & Generative AI Arcade Game",
+    "linkDetails": "",
+    "description": "Accomplished hands on training in Google Cloud services and deployment, applied Generative AI in real scenarios.",
+    "badgeText": "Issued on Mar 2024",
+    "link": ""
+  },
+  {
+    "logo": "Meta",
+    "image": "/assets/icons8-meta-240.png",
+    "title": " Introduction to Front End Development",
+    "linkDetails": "",
+    "subtitle": "Certification",
+    "description": "Accomplished Meta front-end course covering HTML, CSS, JavaScript, responsive design, UI principles, and accessibility.",
+    "badgeText": "Issued on Aug 2024",
+    "link": ""
+  },
+  {
+    "logo": "Accenture",
+    "image": "/assets/icons8_accenture-240.png",
+    "title": "Developer and Technology Job Simulation",
+    "linkDetails": "",
+    "subtitle": "Certification",
+    "description": "Accomplished Accenture Developer and Technology Job Simulation, showcasing advanced skills in real world technical scenarios.",
+    "badgeText": "Issued on Dec 2024",
+    "link": ""
+  }
+]
